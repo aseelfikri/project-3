@@ -1,0 +1,197 @@
+body{
+    background-color: blue;
+}
+.parent-welcome{
+    background-color: rgba(128, 128, 128, 0.323);
+    height: 170px;
+  
+}
+.h2-food{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 45px;
+}
+.parent-food{
+    background-color: rgba(128, 128, 128, 0.323);
+    margin-top: 7px;
+    height: 150px;
+}
+.h2-write{
+    text-align: center;
+    font-size: 45px;
+}
+.parent-write{
+    background-color: rgba(128, 128, 128, 0.323);
+    height: 60px;
+}
+.p-suggest {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.fixed-bg {
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-food-background_23-2148051451.jpg?t=st=1731057526~exp=1731061126~hmac=4b27b3ca615012d199a606ea22f3adcec7aadbd4b454210965e67e0d7c89a7a2&w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+}
+.card::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: black;
+}
+.card:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: 0.5s;
+}
+.card::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    background-color: black;
+}
+.card:hover::before {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: 0.5s;
+}
+.parent-card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.fixed-bgg {
+    background-image: url(https://img.freepik.com/free-vector/background-with-different-meals_23-2147871165.jpg?t=st=1731060578~exp=1731064178~hmac=5e97249a4eabe6821399e9249ed08b707c422c1a07250371ff432797c058cf64&w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    margin-top: 20px;
+}
+.image{
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-photo/chicken-fajita-chicken-fillet-fried-with-bell-pepper-lavash-with-bread-slices-white-plate_114579-174.jpg?t=st=1731063496~exp=1731067096~hmac=403e345525ed8f77ad9cf2c431c29312ac48e8520b5a50e45a441f8598f7fdd3&w=740
+    );
+    background-color:black;
+    opacity: 0.5;
+}
+.image:hover{
+    transform: scale(0.9,0.9);
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.pparent {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.hh2{
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+  
+}
+.mmm{
+border-radius: 90px;
+background-color: gainsboro;
+}
+.nnn{
+    border-radius: 90px;
+    margin-left: 10px;
+}
+.nnn2{
+    border-radius: 90px;
+    /* margin-right: 50px; */
+}
+.klm{
+    margin-left: 45px;
+    border-radius: 10px;
+}
+.card7{
+    background-color: rgba(128, 128, 128, 0.23);
+}
+/* //////////////////////////////////////////////////// */
+.container-opacity2{
+    width: 100%;
+    /* height: 50vh;
+    
+   background-attachment: fixed;
+   
+    background-image: url(../images/WhatsApp\ Image\ 2024-08-24\ at\ 19.51.10_5f7b2d14.jpg);
+    background-size: cover; */
+    position: relative;
+}
+
+.parent-opacity2{
+    width: 80%;
+
+    margin: auto;
+
+    overflow: auto;
+    
+    
+}
+.opacity-islam{
+    text-align: center;
+    width: 28%;
+    padding: 20px;
+    overflow: auto;
+    float: left;
+ background-color: rgba(128, 128, 128, 0.171);
+    position:relative;
+    
+    margin-top: 100px;
+    
+
+}
+.yy{
+    margin-left: 60px;
+    border-radius: 20px;
+}
+.opacity-content{
+    float: left;
+   /* margin-left: 10px; */
+    margin-top: 10px;
+}
+.img-islam{
+    /* width: 70px;
+    height: 70px;
+    border-radius: 50%; */
+    float: left;
+    
+    
+}
+.h2-islam{
+    color:black;
+    margin-left: 10px;
+    
+}
+.p1-islam{
+  color: gray;
+
+  
+}
+.ppp2-islam{
+    color:gray;
+ 
+    
+}

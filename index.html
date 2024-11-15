@@ -1,0 +1,559 @@
+<head>
+    <title>project-3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/scrip.js">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+        <div class="container">
+          <img  src="https://img.freepik.com/free-photo/homemade-cake-bakery-round-board-mockup_53876-65258.jpg?ga=GA1.1.1293840057.1731001394&semt=ais_hybrid" alt="##" width="70" height="70" class="rounded-circle">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Menu
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Dishes</a></li>
+                  <li><a class="dropdown-item" href="#">Drinks</a></li>
+                  
+                  <li><a class="dropdown-item" href="#">Desserts</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-primary" type="submit">Search</button>
+             <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Login
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="false">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary mx-4">Close</button>
+              </form>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+            </form>
+            
+          </div>
+        </div>
+      </nav>
+      <!-- ////////////////////////////////////////////////////////////////////// -->
+      <div id="carouselExampleCaptions" class="carousel slide"
+      data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://img.freepik.com/free-photo/front-view-fresh-carrot-salad-grated-salad-with-walnuts-garlic-dark-desk-diet-salad-color-nut-health_140725-110138.jpg?t=st=1731008178~exp=1731011778~hmac=d0de60d598de2562645840153a16dda354a5be91895a0df8bf0fb404d1f9838f&w=996" class="d-block w-100" alt="..."height="735">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Dishes</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+              <button type="submit" class="btn btn-primary mx-4">Order</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.freepik.com/free-photo/slice-caramel-cake-with-tea_114579-17921.jpg?t=st=1731008435~exp=1731012035~hmac=f3f3e1a425b8d9582792f6ed1145934e0e2f391ca06cc9f8dd47aa9af4cb12ab&w=996" class="d-block w-100" alt="..."height="735">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Desserts</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+              <button type="submit" class="btn btn-primary mx-4">Order</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.freepik.com/free-photo/fresh-cocktails-with-ice-lemon-lime-fruits-generative-ai_188544-12370.jpg?t=st=1731008501~exp=1731012101~hmac=2b6ffe40da7c92c06e419d7c73d5089582cc531ff1ef6acd3b084a036c2248a3&w=1060" class="d-block w-100 " alt="..." height="735">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Drinks</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+              <button type="submit" class="btn btn-primary mx-4">Order</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+       <div class="parent-welcome">
+        <h2 class="mx-4 my-4">Welcome</h2>
+        <p   class="mx-4 my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos cupiditate culpa,</p>
+        <button  class="btn btn-secondary mx-4">Learn More</button>
+       </div>
+       <!-- ////////////////////////////////////////////////////////////////////////////// -->
+        <div class="parent-food">
+          <h2 class="my-4 h2-food">Popular Food in Egypt</h2>
+        </div>
+        <!-- //////////////////////////////////////////////////////////////// -->
+        <div class="accordion accordion-flush my-4" id="accordionFlushExample">
+          <div class="accordion-item ">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Dishes
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed  bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Drinks
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed  bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Desserts
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+        </div>
+        <!-- //////////////////////////////////////////////////////////////////// -->
+         <div class="parent-write">
+          <h2 class="h2-write">Write A Suggestion</h2>
+         </div>
+         <!-- ////////////////////////////////////////////////////////////////////// -->
+          <!-- Button trigger modal -->
+           <div class="bg-secondary">
+           <p class="p-suggest">Write A Suggestion</p>
+<button type="button" class="btn btn-dark mx-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Send
+</button>
+<div class="form-floating">
+  <textarea class="mx-4 my-4" rows="5" cols="170"></textarea>
+</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        The Text Has sent
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ////////////////////////////////////////////////////////////////////////////////// -->
+<div class="parent-write">
+  <h2 class="h2-write">Write A Suggestion</h2>
+ </div>
+ <!-- ////////////////////////////////////////////////////////////////////// -->
+  <!-- Button trigger modal -->
+   <div class="bg-secondary">
+   <p class="p-suggest">Write A Suggestion</p>
+<button type="button" class="btn btn-dark mx-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+Send
+</button>
+<div class="form-floating">
+<textarea class="mx-4 my-4" rows="5" cols="170"></textarea>
+</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+The Text Has sent
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+</div>
+</div>
+</div>
+</div>
+<!-- ////////////////////////////////////////////////////////////////////////////////// -->
+<div class="parent-write">
+  <h2 class="h2-write">Write A Suggestion</h2>
+ </div>
+ <!-- ////////////////////////////////////////////////////////////////////// -->
+  <!-- Button trigger modal -->
+   <div class="bg-secondary">
+   <p class="p-suggest">Write A Suggestion</p>
+<button type="button" class="btn btn-dark mx-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+Send
+</button>
+<div class="form-floating">
+<textarea class="mx-4 my-4" rows="5" cols="170"></textarea>
+</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+The Text Has sent
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+</div>
+</div>
+</div>
+</div>
+<!-- ////////////////////////////////////////////////////////////////////////////////// -->
+<div class="fixed-bg"></div>
+<div class="parent-food">
+  <h2 class="my-4 h2-food">Popular Food in Egypt</h2>
+</div>
+<!-- /////////////////////////////////////////////////////////////// -->
+<div class="parent-card container">
+<div class="card" style="width: 18rem;">
+  <img src="https://img.freepik.com/free-photo/chicken-kebab-set-table_140725-8209.jpg?t=st=1731058178~exp=1731061778~hmac=1470e26109d78dfe133cbbf7df7d6e39ad36b48d1b940bc3049b090afa879fcb&w=740" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Egyptian Food</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Order</a>
+  </div>
+</div>
+<!-- //////////////////////////////////////////////////// -->
+<div class="card" style="width: 18rem;">
+  <img src="https://img.freepik.com/free-photo/chicken-kebab-set-table_140725-8209.jpg?t=st=1731058178~exp=1731061778~hmac=1470e26109d78dfe133cbbf7df7d6e39ad36b48d1b940bc3049b090afa879fcb&w=740" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Egyptian Food</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Order</a>
+  </div>
+</div>
+<!-- ///////////////////////////////////////// -->
+<div class="card" style="width: 18rem;">
+  <img src="https://img.freepik.com/free-photo/chicken-kebab-set-table_140725-8209.jpg?t=st=1731058178~exp=1731061778~hmac=1470e26109d78dfe133cbbf7df7d6e39ad36b48d1b940bc3049b090afa879fcb&w=740" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Egyptian Food</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Order</a>
+  </div>
+</div>
+
+</div>
+<!-- /////////////////////////////////////////////////// -->
+<div class="parent-card container">
+  <div class="card" style="width: 18rem;">
+    <img src="https://img.freepik.com/free-photo/chicken-kebab-set-table_140725-8209.jpg?t=st=1731058178~exp=1731061778~hmac=1470e26109d78dfe133cbbf7df7d6e39ad36b48d1b940bc3049b090afa879fcb&w=740" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Egyptian Food</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Order</a>
+    </div>
+  </div>
+  <!-- //////////////////////////////////////////////////// -->
+  <div class="card" style="width: 18rem;">
+    <img src="https://img.freepik.com/free-photo/chicken-kebab-set-table_140725-8209.jpg?t=st=1731058178~exp=1731061778~hmac=1470e26109d78dfe133cbbf7df7d6e39ad36b48d1b940bc3049b090afa879fcb&w=740" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Egyptian Food</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Order</a>
+    </div>
+  </div>
+  <!-- ///////////////////////////////////////// -->
+  <div class="card" style="width: 18rem;">
+    <img src="https://img.freepik.com/free-photo/chicken-kebab-set-table_140725-8209.jpg?t=st=1731058178~exp=1731061778~hmac=1470e26109d78dfe133cbbf7df7d6e39ad36b48d1b940bc3049b090afa879fcb&w=740" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Egyptian Food</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Order</a>
+    </div>
+  </div>
+  
+  </div>
+  <!-- //////////////////////////////////////////////// -->
+  <div class="parent-card container">
+    <div class="card" style="width: 18rem;">
+      <img src="https://img.freepik.com/free-photo/chicken-kebab-set-table_140725-8209.jpg?t=st=1731058178~exp=1731061778~hmac=1470e26109d78dfe133cbbf7df7d6e39ad36b48d1b940bc3049b090afa879fcb&w=740" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Egyptian Food</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Order</a>
+      </div>
+    </div>
+    <!-- //////////////////////////////////////////////////// -->
+   
+    <!-- ///////////////////////////////////////// -->
+    <div class="card" style="width: 18rem;">
+      <img src="https://img.freepik.com/free-photo/chicken-kebab-set-table_140725-8209.jpg?t=st=1731058178~exp=1731061778~hmac=1470e26109d78dfe133cbbf7df7d6e39ad36b48d1b940bc3049b090afa879fcb&w=740" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Egyptian Food</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Order</a>
+      </div>
+    </div>
+    
+    </div>
+    <!-- //////////////////////////////////////////////////// -->
+    <div class="fixed-bgg"></div>
+    <h2 class="h2-write bg-secondary my-3">Thank For</h2>
+    <!-- ////////////////////////////////////////////////////// -->
+  <div class="pparent">
+    <div class="image">
+      <div><h2 class="text-light">All Thinks and Appreciation</h2> 
+        <p class="text-light">October 15,2020</p>
+      </div>
+      <div>
+        <img src="https://img.freepik.com/free-vector/hand-drawn-girl-cooking-background_23-2148189676.jpg?t=st=1731061230~exp=1731064830~hmac=94b23a3d70524059e3d1839ead17545c13ed1eacea143f2666d902aa0bae123a&w=740" alt="##" width="70" height="70"class="rounded-circle" >
+        <p class="text-light">Eng.Aseel Fikri:</p>
+      </div>
+     </div>
+   <!-- ///////////////////////////////// -->
+   <div class="image">
+    <div><h2 class="text-light">All Thinks and Appreciation</h2> 
+      <p class="text-light">October 15,2020</p>
+    </div>
+    <div>
+      <img src="https://img.freepik.com/free-vector/hand-drawn-girl-cooking-background_23-2148189676.jpg?t=st=1731061230~exp=1731064830~hmac=94b23a3d70524059e3d1839ead17545c13ed1eacea143f2666d902aa0bae123a&w=740" alt="##" width="70" height="70"class="rounded-circle" >
+      <p class="text-light">Eng.Aseel Fikri:</p>
+    </div>
+   </div>
+   <!-- /////////////////////////////////////// -->
+   <div class="image">
+    <div><h2 class="text-light">All Thinks and Appreciation</h2> 
+      <p class="text-light">October 15,2020</p>
+    </div>
+    <div>
+      <img src="https://img.freepik.com/free-vector/hand-drawn-girl-cooking-background_23-2148189676.jpg?t=st=1731061230~exp=1731064830~hmac=94b23a3d70524059e3d1839ead17545c13ed1eacea143f2666d902aa0bae123a&w=740" alt="##" width="70" height="70"class="rounded-circle" >
+      <p class="text-light">Eng.Aseel Fikri:</p>
+    </div>
+   </div>
+   <!-- ////////////////////////////////////// -->
+  </div>
+  <hr>
+  <h2 class="hh2">Egyption Food</h2>
+  <!-- ////////////////////////////////////////////////////// -->
+  <div class="card5 mb-3 container my-4 mmm " style="max-width: 1200px; max-height: 800px; ">
+    <div class="row g-0">
+     
+      <div class="col-md-8 ">
+        <div class="card-body">
+          <h2 class="card-title my-3">Dishes</h2>
+          <p >october 15,2020</p>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, rem ratione quia nobis perferendis neque saepe ut qui voluptas dignissimos aspernatur ad adipisci numquam commodi beatae, ab, officia consequatur blanditiis? </p>
+          <button type="button" class="btn btn-primary my-4">Send</button>
+           <button type="button" class="btn btn-secondary mx-4">Search</button>
+           <button type="button" class="btn btn-secondary ">Submet</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="https://img.freepik.com/free-photo/smoked-vegetable-slices-aubergine-tomato-bell-pepper-onion_140725-5933.jpg?t=st=1731144946~exp=1731148546~hmac=5084a005b46696f28c55262df6b0ad1ae60df18b63ba08b06204d088d31dcb8e&w=740" class=" nnn img-fluid rounded-start "max-width: 1200px; max-height: 800px;" alt="##" >
+      </div>
+    </div>
+  </div>
+<!-- ///////////////////////////////////// -->
+<div class="card5 mb-3 container my-4 mmm " style="max-width: 1200px; max-height: 800px; ">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="https://img.freepik.com/free-photo/smoked-vegetable-slices-aubergine-tomato-bell-pepper-onion_140725-5933.jpg?t=st=1731144946~exp=1731148546~hmac=5084a005b46696f28c55262df6b0ad1ae60df18b63ba08b06204d088d31dcb8e&w=740" class=" nnn2 img-fluid rounded-end "alt="##" >
+    </div>
+    <div class="col-md-8 ">
+      <div class="card-body">
+        <h2 class="card-title my-3">Dishes</h2>
+        <p >october 15,2020</p>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, rem ratione quia nobis perferendis neque saepe ut qui voluptas dignissimos aspernatur ad adipisci numquam commodi beatae, ab, officia consequatur blanditiis? </p>
+        <button type="button" class="btn btn-primary my-4">Send</button>
+         <button type="button" class="btn btn-secondary mx-4">Search</button>
+         <button type="button" class="btn btn-secondary ">Submet</button>
+      </div>
+    </div>
+   
+  </div>
+</div>
+<!-- ///////////////////////////////////////////// -->
+<div class="card5 mb-3 container my-4 mmm " style="max-width: 1200px; max-height: 800px; ">
+  <div class="row g-0">
+   
+    <div class="col-md-8 ">
+      <div class="card-body">
+        <h2 class="card-title my-3">Dishes</h2>
+        <p >october 15,2020</p>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, rem ratione quia nobis perferendis neque saepe ut qui voluptas dignissimos aspernatur ad adipisci numquam commodi beatae, ab, officia consequatur blanditiis? </p>
+        <button type="button" class="btn btn-primary my-4">Send</button>
+         <button type="button" class="btn btn-secondary mx-4">Search</button>
+         <button type="button" class="btn btn-secondary ">Submet</button>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <img src="https://img.freepik.com/free-photo/smoked-vegetable-slices-aubergine-tomato-bell-pepper-onion_140725-5933.jpg?t=st=1731144946~exp=1731148546~hmac=5084a005b46696f28c55262df6b0ad1ae60df18b63ba08b06204d088d31dcb8e&w=740" class=" nnn img-fluid rounded-start "max-width: 1200px; max-height: 800px;" alt="##" >
+    </div>
+  </div>
+</div>
+<!-- /////////////////////////////////////////////////////////////////// -->
+<div class="card5 mb-3 container my-4 mmm " style="max-width: 1200px; max-height: 800px; ">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="https://img.freepik.com/free-photo/smoked-vegetable-slices-aubergine-tomato-bell-pepper-onion_140725-5933.jpg?t=st=1731144946~exp=1731148546~hmac=5084a005b46696f28c55262df6b0ad1ae60df18b63ba08b06204d088d31dcb8e&w=740" class=" nnn2 img-fluid rounded-end "alt="##" >
+    </div>
+    <div class="col-md-8 ">
+      <div class="card-body">
+        <h2 class="card-title my-3">Dishes</h2>
+        <p >october 15,2020</p>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, rem ratione quia nobis perferendis neque saepe ut qui voluptas dignissimos aspernatur ad adipisci numquam commodi beatae, ab, officia consequatur blanditiis? </p>
+        <button type="button" class="btn btn-primary my-4">Send</button>
+         <button type="button" class="btn btn-secondary mx-4">Search</button>
+         <button type="button" class="btn btn-secondary ">Submet</button>
+      </div>
+    </div>
+   
+  </div>
+</div>
+<!-- /////////////////////////////////////////////////////////////////////////// -->
+ <h2 class="text-center my-4 fs-1 bg-secondary ">Join Us</h2>
+ <!-- ///////////////////////////////////////////////// -->
+  <div class="container d-flex justify-content-between">
+ <div class="card7  " style="width: 250px;;height: 250px;border-radius: 30px;">
+  <div class="card-body ">
+    <h4 class="card-title text-center">Subscribe Now</h4>
+  <img src="https://img.freepik.com/free-vector/simple-new-twitter-logo-x-white-background_1017-45426.jpg?t=st=1731149646~exp=1731153246~hmac=d08b1dc3651767219559a2268afafb0c0ce33ab34fe85214d2c378cdccc4f162&w=740" class="klm my-3" width="120" height="120" alt="##">
+    <h5 class="text-center">Go To Link</h5>
+  </div>
+</div>
+<!-- //////////////////////////////////////////// -->
+<div class="card7 " style="width: 250px;;height: 250px;border-radius: 30px;">
+  <div class="card-body ">
+    <h4 class="card-title text-center">Follow</h4>
+  <img src="https://img.freepik.com/free-vector/whatsapp-icon-design_23-2147900929.jpg?t=st=1731151377~exp=1731154977~hmac=4c6944ee958930a62ce8173f8d4f78cd7debb76296a0f7e40e82f2e49e49844b&w=740" class="klm my-3" width="120" height="120" alt="##">
+    <h5 class="text-center">Go To Link</h5>
+  </div>
+</div>
+ <!-- ///////////////////////////////////////// -->
+ <div class="card7 " style="width: 250px;;height: 250px;border-radius: 30px;">
+  <div class="card-body ">
+    <h4 class="card-title text-center">Like The Page</h4>
+  <img src="https://img.freepik.com/free-psd/social-media-logo-design_23-2151296991.jpg?t=st=1731151525~exp=1731155125~hmac=1a1d5d4be5c0566aea573af33b46ee9d11a2e2f81905110acaabcee4d29a205f&w=740" class="klm my-3" width="120" height="120" alt="##">
+    <h5 class="text-center">Go To Link</h5>
+  </div>
+</div>
+<!-- ///////////////////////////////////////// -->
+<div class="card7   " style="width: 250px;;height: 250px;border-radius: 30px;">
+  <div class="card-body ">
+    <h4 class="card-title text-center">Watch videos</h4>
+  <img src="https://img.freepik.com/free-vector/instagram-background-gradient-colors_23-2147823816.jpg?t=st=1731151472~exp=1731155072~hmac=d085892c14363e5844ea3f81107bf9aaf30fd7ecea0d7866e9c494ea64717eed&w=740" class="klm my-3" width="120" height="120" alt="##">
+    <h5 class="text-center">Go To Link</h5>
+  </div>
+</div>
+  <!-- ///////////////////////////////////////////// -->
+</div>
+<!-- ///////////////////////////////////////////////// -->
+<div class="container-opacity2">
+ 
+  <div class="parent-opacity2">
+      <!-- /////////////////////////////////////// -->
+       <div class="opacity-islam yy ">
+             <img class="img-islam  rounded-circle" src="https://img.freepik.com/free-vector/cartoon-turkish-cuisine-banner-set_52683-84229.jpg?t=st=1731602423~exp=1731606023~hmac=522c028cc5773d9a127125d006c3b51ab0fae7b35f1e7b12d354b6c5bcc6cf31&w=740" alt="##" width="70" height="70"  >
+             <div class="opacity-content">
+             <h5 class="h2-islam">Good Resturant</h5>
+             <p class="p1-islam">fax:00-000</p>
+             <p class="ppp2-islam">Address:Egypt</p>
+            </div><!-- opacity-content -->
+              
+       </div><!-- opacity-islam -->
+       <!-- ////////////////////////////////////////////////////// -->
+       <div class="opacity-islam yy">
+        <img class="img-islam rounded-circle" src="https://img.freepik.com/free-vector/cartoon-turkish-cuisine-banner-set_52683-84229.jpg?t=st=1731602423~exp=1731606023~hmac=522c028cc5773d9a127125d006c3b51ab0fae7b35f1e7b12d354b6c5bcc6cf31&w=740" alt="##"width="70" height="70"  >
+        <div class="opacity-content">
+        <h5 class="h2-islam">Good Resturant</h5>
+        <p class="p1-islam">fax:00-000</p>
+        <p class="ppp2-islam">Address:Egypt</p>
+       </div><!-- opacity-content -->
+       
+  </div><!-- opacity-islam -->
+  <!-- ///////////////////////////////////////////// -->
+  <div class="opacity-islam yy">
+    <img class="img-islam rounded-circle" src="https://img.freepik.com/free-vector/cartoon-turkish-cuisine-banner-set_52683-84229.jpg?t=st=1731602423~exp=1731606023~hmac=522c028cc5773d9a127125d006c3b51ab0fae7b35f1e7b12d354b6c5bcc6cf31&w=740"  alt="##" width="70" height="70"  >
+    <div class="opacity-content">
+    <h5 class="h2-islam">Good Resturant</h5>
+    <p class="p1-islam">fax:00-000</p>
+    <p class="ppp2-islam">Address:Egypt</p>
+   </div><!-- opacity-content -->
+    
+</div><!-- opacity-islam -->
+      
+    <!-- //////////////////////////////////////////////////////// -->
+  </div> <!-- parent-opacity2 -->
+</div><!--container-opacity2  -->
+<!-- /////////////////////// -->
+ <hr>
+ <h1 class="text-center bg-secondary">I Hope You Visit Us Again</h1>
+ <hr>
+<!-- ///////////////////////////////////////////////////////// ///////-->
+  <script src="js/bootstrap.min.js"></script>
+</body>
